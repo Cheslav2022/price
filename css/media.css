@@ -1,0 +1,348 @@
+@media screen and (max-width: 1350px) {
+    .address {
+        display: none;
+    }
+    .contact {
+        margin-right: 0px;
+    }
+    .stocks_content_right {
+        padding: 0px 24px 24px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .contact span {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+    .four_links {
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 881px) {
+    .contact {
+        display: none;
+    }
+    .four_links {
+        display:  none;
+    }
+    .menu_mobile {
+        display: block;
+    }
+    .price_mobile {
+        display: block;
+    }
+    .header_logo{
+        margin-right: 0px;
+    }
+    .header {
+        height: 102px;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .help_content_right_bottom_left {
+        width: auto;
+    }
+
+    .help_content_right_bottom_right {
+        width: 100%;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 690px) {
+    .image_body {
+        width: 448px;
+        height: 224px;
+    }
+    .stocks_content_right {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .one-click-buy-popup-content {
+        margin: 0px 16px;
+        padding: 48px 24px;
+    }
+    .section-subtitle {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 24px;
+    }
+    .one-click-buy-popup-form {
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+    .section-description {
+        font-size: 10px;
+        line-height: 15px;
+        margin-bottom: 24px;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    .header {
+        height: 72px;
+    }
+
+    .header_logo_img {
+        width: 94px;
+    }
+
+    .price_mobile {
+        text-decoration: none;
+        font-family: 'VantaLight';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 12.29px;
+    }
+
+    .footer_input_form {
+        width: 212px;
+    }
+    .footer_button {
+        width: 76px;
+    }
+
+    .main {
+        height: 496px;
+    }
+
+    #breadcrumbs {
+        margin-bottom: 0px;
+        font-size: 12px;
+        line-height: 12.29px;
+    }
+
+
+    h1 {
+        font-size: 28px;
+        line-height: 26.91px;
+        margin-top: 72px;
+        margin-bottom: 40px;
+    }
+
+    .price_header {
+        padding: 16px;
+        font-size: 14px;
+        line-height: 18.2px;
+        color: #363431;
+    }
+
+    
+    .price_services {
+        padding: 16px;
+        font-size: 16px;
+        line-height: 20.8px;
+        color: #363431;
+    }
+
+    .price_services_2 {
+        padding: 16px;
+        font-size: 16px;
+        line-height: 20.8px;
+    }
+
+    .price_services_3 {
+        padding: 12px;
+        font-size: 16px;
+        line-height: 15.6px;
+    }
+
+    .note {
+        font-size: 12px;
+        line-height: 20.4px;
+        margin-top: 24px;
+        margin-bottom: 72px;
+    }
+
+    .line {
+        width: 104px;
+        margin-bottom: 24px;
+        height: 1px;
+    }
+
+    .name_studios {
+        font-size: 16px;
+        line-height: 16.38px;
+        margin-bottom: 56px;
+    }
+
+    .one-click-buy-button {
+        width: 172px;
+        height: 56px;
+        font-size: 14px;
+        line-height: 14.33px;
+        margin-bottom: 65px;
+    }
+
+    .form-button {
+        padding: 13px 35px;
+    }
+
+    .about_title {
+        font-size: 28px;
+        line-height: 26.91px;
+        margin-top: 72px;
+    }
+    .row_about {
+        margin-top: 44px;
+        row-gap: 30px;
+    }
+    .about p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 22px;
+    }
+
+    .about img {
+        width: 54px;
+    }
+
+    .help_title {
+        font-size: 28px;
+        line-height: 36.4px;
+        margin-top: 72px;
+        margin-bottom: 40px;
+    }
+
+    .help_content_wrapper {
+        gap: 24px;
+    }
+
+    .help_content_right_wrapper {
+        gap: 24px;
+    }
+
+    .help_content_right_bottom {
+        gap: 24px;
+    }
+
+    .help_content_right_bottom_left {
+        max-height: 144px;
+        padding: 0px 30px;
+    }
+
+    .help_content_right_bottom_right {
+        max-height: 144px;
+        padding: 0px 50px;
+    }
+
+    .card_1 {
+        font-size: 16px;
+        line-height: 20.8px;
+    }
+
+    .help_content_left {
+        height: 272px;
+    } 
+
+    .card_2 {
+        font-size: 16px;
+        line-height: 20.8px;
+    }
+
+    .card_3 {
+        font-size: 16px;
+        line-height: 20.8px;
+    }
+
+    .card_4 {
+        font-size: 16px;
+        line-height: 20.8px;
+    }
+
+    .help_content_right_top {
+        height: auto;
+    }
+
+    .stocks {
+        margin-top: 72px;
+    }
+
+    .stocks_title {
+        font-size: 28px;
+        line-height: 26.91px;
+        margin-bottom: 40px;
+        margin-top: 72px;
+    }
+
+    .stocks_wrapper {
+        margin-bottom: 40px;
+    }
+
+    .stocks_inner {
+        gap: 24px;
+    }
+
+    .image_body {
+        width: 288px;
+        height: 192px;
+    }
+
+    .stocks_content_right_title {
+        font-size: 20px;
+        line-height: 26px;
+        margin-top: 24px;
+        margin-bottom: 16px;
+    }
+
+    .stocks_content_right {
+        width: auto;
+        padding: 0px 24px 24px;
+    }
+
+    .stocks_content_right_description {
+        font-size: 14px;
+        line-height: 23.8px;
+        margin-bottom: 24px;
+    }
+
+    .price_1 {
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .price_2 {
+        font-size: 14px;
+        line-height: 23.8px;
+    }
+
+    .stocks a {
+        font-size: 16px;
+        line-height: 27.2px;
+        padding-bottom: 3px;
+        margin-bottom: 24px;
+    }
+
+    .slider_wrapper {
+        margin-bottom: 72px;
+    }
+
+    .row_footer {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .footer_nav{ 
+        font-size: 14px;
+        line-height: 14.33px;
+    }
+    .social_links {
+        display: none;
+    }
+    .copyright {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+}

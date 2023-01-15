@@ -1,0 +1,349 @@
+@font-face {
+	font-family: 'VantaLight';
+	src: url('../fonts/ofont.ru_VantaLight.eot');
+	src: local('☺'), url('../fonts/ofont.ru_VantaLight.woff') format('woff'), url('../fonts/ofont.ru_VantaLight.ttf') format('truetype'), url('../fonts/ofont.ru_VantaLight.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Vanta';
+	src: url('../fonts/ofont.ru_Vanta.eot');
+	src: local('☺'), url('../fonts/ofont.ru_Vanta.woff') format('woff'), url('../fonts/ofont.ru_Vanta.ttf') format('truetype'), url('../fonts/ofont.ru_Vanta.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html, body {
+    height: 100%;
+    max-height: 100%;
+    overflow-x: hidden;
+    background-color: #FFFFFF;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container {
+    max-width: 1630px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.header {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header a {
+    text-decoration: none;
+    font-family: 'VantaLight';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16.38px;
+}
+
+a {
+    color: #363431;
+}
+
+
+.row_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.menu_mobile {
+    display: none;
+}
+
+.header_logo {
+    margin-right: 108px;
+}
+
+.four_links {
+    display: flex;
+    gap: 56px;
+    margin-right: 118px;
+
+}
+
+.price_mobile {
+    display: none;
+}
+
+.contact {
+    margin-right: 56px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-family: 'VantaLight';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+/* breadcrumbs */
+#breadcrumbs {
+    font-family: 'VantaLight';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16.38px;
+    color: #363431;
+    margin-top: 24px;
+    margin-bottom: 112px;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+}
+
+.breadcrumb {
+    color: #74B900;
+}
+
+
+/* main */
+
+/* services */
+
+
+
+h1 {
+    font-family: 'Vanta';
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 46.13px;
+    text-align: center;
+    margin-top: 112px;
+    margin-bottom: 80px;
+}
+
+.price_wrapper {
+    max-width: 1328px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.price_header {
+    display: flex;
+    justify-content: space-between;
+    color: #363431;
+    border: 0.5px solid #4E4D4D;
+    padding: 24px;
+    font-family: 'VantaLight';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.price_services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #363431;
+    padding: 24px;
+    font-family: 'VantaLight';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.2px;
+    background-color: #F9F9F9;
+}
+
+.price_services_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #363431;
+    padding: 24px;
+    font-family: 'VantaLight';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.2px;
+    background-color: #F3F3F3;
+}
+
+.price_services_3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #FFFFFF;
+    border: 0.5px solid #B3B3B3;
+    padding: 24px 104px;
+}
+
+.price_services_4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #363431;
+    font-family: 'VantaLight';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+}
+
+.cursor {
+    width: 30.25px;
+    height: 30.17px;
+    position: absolute;
+    top: 51.26px;
+    left: 222.81px;
+}
+
+.color_green_cursor {
+    color: #608A1A;
+}
+
+.note {
+    color: #363431;
+    font-family: 'VantaLight';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 32px;
+    margin-bottom: 176px;
+}
+
+/* footer */
+
+.footer {
+    box-shadow: 0px -2px 5px rgb(0 0 0 / 10%);
+    padding-top: 1px;
+}
+
+
+.row_footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 80px;  
+    row-gap: 40px;  
+}
+
+.footer_nav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family: 'VantaLight';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16.38px;
+    color: #363431;
+}
+
+.social_links {
+    margin: 40px 0px 24px;
+}
+
+.copyright {
+    color: #828282;
+}
+
+.footer_about_title {
+    margin-bottom: 16px;
+    font-family: 'VantaLight';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16.38px;
+    color: #363431;
+}
+
+.footer_about_description {
+    margin-bottom: 8px;
+    font-family: 'VantaLight';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    color: #363431;   
+}
+
+.footer_about_description_bottom {
+    margin-bottom: 8px;
+    font-family: 'VantaLight';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #363431;
+}
+
+.news_title {
+    margin-bottom: 16px;
+    font-family: 'VantaLight';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16.38px;
+    color: #363431;
+}
+
+.news_description {
+    margin-bottom: 32px;
+    font-family: 'VantaLight';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    color: #363431;
+}
+
+.footer_input {
+    margin-bottom: 64px;
+    display: flex;
+}
+
+.politics {
+    font-family: 'VantaLight';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    color: #828282;
+}
+
+.footer_button {
+    width: 104px;
+    height: 48px;
+    border: none;
+    background-color: #74B900;
+    color: #FFFFFF;
+    font-family: 'VantaLight';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    text-align: center;
+    margin-left: -5px;
+}
+
+.footer_input_form {
+    width: 272px;
+    height: 48px;
+    background-color: #F3F3F3;
+    border: none;
+}
+
+::placeholder {
+    padding-left: 16px;
+    font-family: 'VantaLight';
+    font-size: 14px;
+    font-weight: 400;
+    color: #AEACAA;
+}
+
